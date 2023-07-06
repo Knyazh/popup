@@ -1,0 +1,39 @@
+.images {
+  justify-content: space-between;
+}
+.images a {
+  margin-left: 200px;
+}
+.images a img {
+  height: 100%;
+}
+
+.popup {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.popup .image-container {
+  position: relative;
+}
+.popup .icon-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+}
+.popup .icon-overlay .left-icon {
+  margin-right: 100px;
+}
+.popup .icon-overlay .right-icon {
+  margin-left: 100px;
+}/*# sourceMappingURL=style.css.map */
