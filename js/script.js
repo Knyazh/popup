@@ -20,8 +20,13 @@ smallImages.forEach((smallImages) => {
 });
 
 document.addEventListener("click", function(e) {
-    // this.style.display="none";
     if(e.target.classList.contains("popup")){
         closeBigImagePopup(popup);
     }
+});
+
+document.addEventListener("keydown", function(e){
+   if(e.key==="Escape"){
+    closeBigImagePopup(popup);
+   }
 });
